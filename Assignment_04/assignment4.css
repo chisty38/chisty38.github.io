@@ -1,0 +1,111 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body {
+	font-family: "Open Sans", sans-serif;
+	margin: 2px;
+	background-image: url('pics/hd_wallpaper_images_2038_hd_background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: rgba(66, 37, 69, 0.7);
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+#banner{
+	width: 800px;
+	margin-top: 50px;
+	opacity: 0.8;
+	border: 3px solid #B36666;
+	border-radius: 10px;
+}
+
+#style {
+   	
+}
+
+main {
+	margin-left: 100px;
+	width: 750px;
+	margin: 0 auto;
+	padding: 0px 10px 10px 50px;
+	opacity: 0.8;
+	border: 3px solid #B36666;
+	border-radius: 10px;
+	background-image: url('pics/Beautiful-Water-Clouds-21.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #282800;
+	font-weight: bold;
+}
+footer {
+	margin-left: -45px;
+	text-align: center;
+	margin-top: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: large;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #FFFF7D;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+label {
+    float: left;
+    width: 120px;
+}
+
+label + input {
+	display: block;
+	margin: 10px;
+	width: 372px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email] {
+    border: 1px solid #3a6;
+    padding: 3px;
+}
+
+input[type=submit],
+input[type=reset] {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type=submit] {
+	margin-left: 110px;
+	background: #5f5;
+	font-size: x-large;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background: #0f0;
+}
+
+input[type=reset] {
+	margin-left: 140px;
+	background: #f66;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: x-large;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+input[type=reset]:hover {
+    cursor: pointer;
+    background: #f22;
+}

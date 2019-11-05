@@ -1,0 +1,66 @@
+﻿
+<!doctype html>
+<html>
+
+<head>
+    <meta content="text/html" http-equiv="Content-Type">
+    <title>Registration Form</title>
+    <meta content="COMP125, JavaScript, Assignment, Registration Form, Centennial College" name="keywords">
+    <meta content="Assignment 4" name="description">
+    <link rel="stylesheet" href="assignment4.css" type="text/css" />
+</head>
+
+<body>
+<div id="style">
+<header>
+<img id="banner" src="pics/eLearning_Banner.jpg"/>
+</header>
+    </div>
+    <main>
+        <h2>Sign Up To Become a Member of Science Center</h2>
+        <form id="registration">
+            <h3> Please Complete The Form Below  </h3>
+
+            <label for="firstName">First Name:</label>
+            <input id="FName" type="text" required />
+
+            <label for="lastName">Last Name:</label>
+            <input id="LName" type="text" required />
+
+            <label for="address">Address:</label>
+            <input id="address" type="text" required />
+
+            <label for="city">City:</label>
+            <input id="city" type="text" required />
+
+            <label for="postalCode">Postal Code:</label>
+            <input id="PCode" type="text" placeholder="Postal code must be in A1B2C3 format" required />
+
+            <label for="province">Province:</label>
+            <input id="province" type="text" placeholder="First two letter of Your Province Like (ON for Ontario)" required />
+
+            <label for="age">Age:</label>
+            <input id="age" type="number" min="18" placeholder="Age must be 18 or above" required />
+
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Passward must be 6 digit include one digit, one Capital letter" required />
+
+            <label for="passwordConfirm">Confirm:</label>
+            <input id="passConfirm" type="password" placeholder="Type Your Passward again to confirm" required />
+
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="for example joedoe@gmail.com" required />
+
+            <input type="submit" value="Submit Form" />  
+            <input type="reset" value="Reset Form" />
+        
+        </form>
+        <footer>
+            Copyright ~#~ MAINUL HAQUE ~#~ COMP_125 ~#~ Sum_16 ~#~ Assignment_04 ~#~ Java Script ~#~        
+            </footer>
+    </main>
+    <script src="assignment4.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+﻿.form_01 {
+    margin-bottom: 15px;
+    margin-left: 220px;
+    max-width: 800px;
+    font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form_01 label{
+	margin: 0 0 3px 0px;
+	padding: 10px;
+	display: inline;
+	font-weight: bold;
+}
+.form_01 input[type=text], .form_01 input[type=date], .form_01 input[type=datetime], .form_01 input[type=number], .form_01 input[type=search], .form_01 input[type=time], .form_01 input[type=url], .form_01 input[type=email], textarea, select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form_01 input[type=text]:focus, .form_01 input[type=date]:focus, .form_01 input[type=datetime]:focus, .form_01 input[type=number]:focus, .form_01 input[type=search]:focus, .form_01 input[type=time]:focus, .form_01 input[type=url]:focus, .form_01 input[type=email]:focus, .form_01 textarea:focus, .form_01 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form_01 .field-divided{
+	width: 49%;
+}
+
+.form_01 .varible-field{
+    width: 50%;
+}
+.form_01 .field-select{
+    width: 100%;
+}
+.form_01 .field-textarea{
+    height: 100px;
+}
+.form_01 input[type=submit], .form_01 input[type=reset], .form_01 input[type=button]{
+	background: #7BB7C6;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+	height: 60px;
+	font-size: 25px;
+}
+.form_01 input[type=submit]:hover, .form_01 input[type=reset]:hover, .form_01 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    cursor: pointer;
+}
+.box{
+	font-weight: bold;
+	text-align: center;
+	padding: 1px 5px;
+	color: #CCCCCC;
+	margin: 20px 70px 47px 70px;
+	height: 200px;
+	width: 700px;
+	background-color: #FF5B5B;
+}
+}
+.showmessage{
+    font-size: 65px;
+    margin: 10px auto;
+}
+#content{
+    padding: 10px 50px;
+}
+
+#text p{
+    line-height:30px;
+    text-indent: 30px;
+    text-align:justify;
+
+}
+   div.background:hover {
+    opacity: 1.0;
+    }
+    div.background {
+	background-position: center;
+	background-size: cover;
+	opacity: 0.4;
+	background: url('../Slimlife_healthtools_header_image.jpg');
+	width: 980px;
+	height: 290px;
+	background-repeat: no-repeat;
+}
+
+div.transbox {
+  margin: 1px;
+  opacity: 0.6;
+ }
+div.transbox p {
+	margin: 1%;
+	font-weight: bold;
+	color: #666666;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #AEAAA8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.sometext {
+	margin: 10px;
+}

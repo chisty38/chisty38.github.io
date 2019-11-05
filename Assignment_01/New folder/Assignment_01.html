@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Untitled 1</title>
+<script src="ASSIGNMENT_01.js"></script>
+<style type="text/css">
+@import url('assignment-04.css');
+    div.background:hover {
+    opacity: 1.0;
+    }
+    div.background {
+	background-position: center;
+	background-size: cover;
+	opacity: 0.4;
+	background: url('../Slimlife_healthtools_header_image.jpg');
+	width: 980px;
+	height: 290px;
+	background-repeat: no-repeat;
+}
+
+div.transbox {
+  margin: 1px;
+  opacity: 0.6;
+ }
+div.transbox p {
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #AEAAA8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.sometext {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+</style>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<link href="ASSIGNMENT_01.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button22.jpg',/*url*/'button23.jpg')">
+<div id="allPage">
+
+<header>
+<div class="background">
+
+  <div class="transbox">
+    <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	  Check Your Required Calories Through BMR Calculator.</p>
+  </div>
+</div>
+<div class="sometext">
+<h2>CalcuLate YouR BmR</h2>
+<p >Calculate your Basal Metabolic Rate (BMR) with this calculator. Your BMR is the amount of energy you expend each day when at rest. 
+Gender, age, height and weight are important for this calculation. You have two calculators to choose from; metric and imperial. Note that
+ both calculators use the Harris-Benedict equation to calculate figures and Once you know&nbsp; your BMR, you can calculate your Daily Calorie 
+ Needs based on your activity level using the Harris Benedict Equation..</p>
+ </div>
+</header>
+<br style="clear:both;">
+
+<form>
+                <div class="form_01">
+                    
+                    
+                        <label style="width: 190px">Age</label>
+                        <br style="clear:both;">
+                        <input id="age"
+                               type="number"
+                               min="0"
+                               step="any"
+                               tabindex="1"
+                               class="varible-field"
+                               placeholder="Type Your Age here in (Years)"
+                               required />
+                         <br style="clear:both;">
+                         <br style="clear:both;">
+                        <label style="width: 202px">Height</label>
+                        <br style="clear:both;">
+                        <input id="height"
+                               type="number"
+                               class="varible-field"
+                               tabindex="3"
+                               placeholder="Type Your Height here in (cm/inch)"
+                               required
+                               min="0"
+                               step="any" />
+                    
+                    <br style="clear:both;">
+                    <br style="clear:both;">
+                        <select tabindex="5" class="varible-field" id="cm-inch">
+                            <option>By Centimeters (cm)</option>
+                            <option>By Inches (in)</option>
+                        </select><br>
+                    
+                    <br style="clear:both;">
+                    
+                        <label style="width: 200px">Weight</label>
+                        <br style="clear:both;">
+                        <input id="weight"
+                               type="number"
+                               min="0"
+                               step="any"
+                               tabindex="7"
+                               class="varible-field"
+                               placeholder="Type Your Weight here in (Kg/Lbs)"
+                               required />
+                    
+                    <br style="clear:both;">
+                    <br style="clear:both;">
+                        <select tabindex="9" class="varible-field" id="kg-lb">
+                            <option>By Kilograms (kg)</option>
+                            <option>By Pounds (lb)</option>
+                        </select>
+                    
+                    <br style="clear:both;">
+                    <br style="clear:both;">
+                        <label style="width: 303px">Select Your Activity Level</label>
+                        <br style="clear:both;">
+
+                        <select tabindex="15" class="varible-field" id="activity">
+
+                            <option>None (No activity at all / stay home)</option>
+                            <option>I am sendentary (little or no exercise)</option>
+                            <option>I am lightly active (light exercize or sports 1-3 days per week)</option>
+                            <option>I am moderately active (moderate exercise or sports 3-5 days per week)</option>
+                            <option>I am very active (hard exercise or sports 5-7 days per week)</option>
+                            <option>I am super active (very hard exercise or sports and a physical job or 2x training)</option>
+
+                        </select>
+                    
+                    <br style="clear:both;">
+                    <br style="clear:both;">
+                        <label style="width: 246px">Select Gender</label>
+                        <br style="clear:both;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input id="female"
+                               name="optGender"
+                               tabindex="11"
+                               type="radio"
+                               required value="optGender" checked="checked">Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                         
+                        
+                        <input id="male"
+                               name="optGender"
+                               tabindex="13"
+                               type="radio"
+                               required>Male
+                          <br style="clear:both;">
+                          <br style="clear:both;">
+
+                          <br style="clear:both;">                  
+                               <input id="btn"
+                               onclick="calculateBmr()"
+                               type="button"
+                               tabindex="19"
+                               value="Calculate YouR BMR"
+                               class="varible-field" />
+                    
+                    
+                </div>
+
+            </form>
+                    <div class="box">
+                    <p>YOUR DAILY BASAL METABOLIC RATE (BMR)</p>
+
+                    <h1 id="resultBmr" class="showmessage">_____</h1>
+                    <p>DAILY CALORIES NEEDED TO MAINTAIN CURRENT WEIGHT</p>
+                    <h1 id="resultCalIn" class="showmessage">_____</h1>
+
+                </div>
+
+                
+<footer>
+<p>                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="../../index.html">Back To Home Page </a> </p>
+</footer>
+</div>
+<p id="allPage" class="showmessage">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ Copyright 
+# MAINUL HAQUE - 
+CENTENNIAL COLLEGE- COMP125 - Summer_16 - Assignment_01 - BMR_Form_caL</p>
+</body>
+
+</html>

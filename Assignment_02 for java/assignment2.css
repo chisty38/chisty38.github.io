@@ -1,0 +1,79 @@
+﻿body {
+	background-position: center 330px;
+	font-family: sans-serif;
+	background-image: url('kitten_ball_thread_white_background_95135_602x339.jpg');
+	background-repeat: no-repeat;
+}
+
+#main {
+	background-size: cover;
+	width: 80%;
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 16px;
+	background: #eee;
+	background-image: url('347922.jpg');
+	color: #FFFFFF;
+}
+
+header {
+    padding: 8px;
+    font-size: 2em;
+    text-align: center;
+}
+
+form {
+	border-radius: 15px;
+	box-shadow: 3px 3px #666666;
+	padding: 8px;
+	background: #4F7BFF;
+	border: 3px solid #C28649;
+	margin-left: 250px;
+	margin-right: 150px;
+	background-image: url('images.jpg');
+	opacity: 0.8;
+	color: #00FF00;
+	font-size: x-large;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: italic;
+	text-transform: capitalize;
+}
+#allign{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-left: 150px;
+}
+#resultTable{
+    margin-left: 290px;
+    }
+
+
+input {
+    margin-top: 8px;
+}
+
+#result {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-top: 8px;
+	overflow: auto;
+}
+footer {
+	padding: 8px;
+	padding-bottom: 0;
+	font-size: 0.8em;
+	text-align: center;
+	color: #CCFFFF;
+}
+
+table, td {
+	border-radius: 7px;
+	border: 2px solid #888;
+	text-align: center;
+	margin-left: 250px;
+}
+
+td {
+    padding: 4px;
+}

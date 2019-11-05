@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="en-ca" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Untitled 1</title>
+<!-- #EndEditable -->
+<style type="text/css">
+h1 {
+	box-shadow: 5px;
+	background-position: center center;
+	background-size: cover;
+	width: 980px;
+	height: 340px;
+	background-image: url('home-prices-rise.jpg');
+	opacity: 0.9;
+	border-bottom-style: groove;
+	border-bottom-color: #333333;
+}
+.pic {
+	background-color: #7E95CF;
+	opacity: 0.9;
+}
+h2 {
+	background-image: url('pic/View-over-the-lake_www.LuxuryWallpapers.net_.jpg');
+	background-position: center center;
+	width: 760px;
+	height: 550px;
+	background-size: cover;
+	opacity: 0.9;
+}
+p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.container {
+    position: relative;
+}
+
+.topleft {
+	position: absolute;
+	top: 200px;
+	left: 16px;
+	font-size: x-large;
+	font-weight: bold;
+	font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 2px;
+	overflow: hidden;
+	background-color: #889CD2;
+	position: absolute;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+img {
+	opacity: 0.6;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.contact {
+    background-color: #4CAF50;
+}
+
+
+.auto-style1 {
+	font-size: large;
+}
+
+
+
+
+.footimg {
+	font-size: small;
+	font-weight: bold;
+	background-color: #AE8A82;
+	background-size: cover;
+	border-top-style: solid;
+	border-color: #333333;
+	box-shadow: 5px;
+}
+
+
+
+
+.auto-style2 {
+	font-size: xx-large;
+}
+.auto-style3 {
+	text-align: center;
+}
+.auto-style4 {
+	text-align: center;
+	font-weight: normal;
+	font-size: xx-large;
+}
+h4 {
+	font-size: x-large;
+	text-align: center;
+	text-indent: hanging;
+}
+
+
+
+
+.newStyle1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: 100;
+	font-style: normal;
+	text-decoration: underline overline;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	box-shadow: 5px;
+}
+
+
+
+
+h6 {
+	font-size: large;
+	font-style: italic;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-top-color: #808080;
+	border-bottom-color: #808080;
+}
+
+
+
+
+.auto-style5 {
+	font-weight: normal;
+}
+
+
+
+
+.auto-style6 {
+	font-size: medium;
+}
+
+
+
+
+.auto-style7 {
+	position: absolute;
+	top: 200px;
+	left: 16px;
+	font-weight: 200;
+	color: #333333;
+}
+.auto-style8 {
+	font-size: 26pt;
+}
+
+
+
+
+</style>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body style="background-image: url('pic/house_with_pool_in_the_yard_wallpaper_1366x768_1453266895338.jpg'); background-attachment: fixed; background-position: center center;
+	background-size: cover;" onload="FP_preloadImgs(/*url*/'pic/buttonE.jpg',/*url*/'pic/buttonF.jpg',/*url*/'pic/button11.jpg',/*url*/'pic/button12.jpg',/*url*/'pic/button1A.jpg',/*url*/'pic/button1B.jpg')">
+<div id="nav" style="position: absolute; left: 230px; top: 360px; width: 980px; z-index: 2">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#Service">Service</a></li>
+  <li><a href="#about">About</a>
+  <li><a href="#Sitemap">Sitemap</a></li>
+  <li><a href="#Buying Guide">Buying Guide</a></li>
+  <li><a href="#Property Listing">Property Listing</a></li>
+  <li><a href="#Find an Agent">Find an Agent</a></li>
+
+  <li style="float:right"><a class="active" href="#contact">Contact</a></li>
+  
+</ul>
+	
+&nbsp;
+</div>
+<div id="layer1" style="position: absolute; left: 230px; top: 0px; width: 980px; height: 350px; z-index: 1">
+	<h1></h1>
+	
+  <div class="auto-style7" style="left: 0px; top: 200px; width: 435px"><strong>
+	  <span class="auto-style8">Discover Your Perfect Home </span></strong>
+	  <span class="auto-style1">&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp; 
+	  with the most complete source of homes for sale</span></div>
+	  </div>
+<div class="pic" style="position: absolute; left: 230px; top: 405px; width: 218px; height: 550px; z-index: 4">
+  <img src="pic/36.jpg" alt="Agent" width="220" height="187">
+  <br>&nbsp;<span class="auto-style1">&nbsp;Joel Carcone</span><br class="auto-style1">
+	<span class="auto-style1">&nbsp; M.COM, PFP </span><br class="auto-style1">
+	<span class="auto-style1">&nbsp; Real Estate Broker<br></span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+	<img id="img1" alt="KeY Properties" fp-style="fp-btn: Linked Row 9; fp-font-style: Bold; fp-font-size: 12; fp-proportional: 0" fp-title="KeY Properties" height="58" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'pic/buttonF.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'pic/buttonD.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'pic/buttonE.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'pic/buttonE.jpg')" src="pic/buttonD.jpg" style="border: 0" width="153">
+	<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+	<img id="img2" alt="Site Map" fp-style="fp-btn: Linked Row 9; fp-font-style: Bold Italic; fp-font-size: 12; fp-proportional: 0" fp-title="Site Map" height="58" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'pic/button12.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'pic/button10.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'pic/button11.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'pic/button11.jpg')" src="pic/button10.jpg" style="border: 0" width="153"><br>
+	<br>&nbsp;&nbsp;&nbsp;&nbsp;
+	<img id="img3" alt="Find Agent" fp-style="fp-btn: Linked Row 9; fp-font-style: Bold Italic; fp-font-size: 12; fp-proportional: 0" fp-title="Find Agent" height="58" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'pic/button1B.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'pic/button19.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'pic/button1A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'pic/button1A.jpg')" src="pic/button19.jpg" style="border: 0" width="153"><br>
+</div>
+
+<div class="home" style="position: absolute; left: 450px; top: 385px; width: 760px; height: 550px; z-index: 2">
+<!-- #BeginEditable "h2" -->
+<h2></h2>
+<!-- #EndEditable -->
+</div>
+
+<div id="footer" style="position: absolute; left: 230px; top: 940px; width: 980px; height: 100px; z-index: 5">
+<div class="footimg">
+	<h3 class="auto-style3">&nbsp;<span class="auto-style2">TESTIMONIALS</span></h3>
+	<p class="auto-style4">--------------</p>
+	
+	<h4>We decided to change up our website platform and to work with Realtechpro and we haven’t looked back! The switch over from our previous site was seamless with no down time. The work was completed in a timely manner and Petru has been great at accommodating our requests to customize certain pages. We’re very happy with the new site and appreciate and love its look. So glad we took the plunge and made the change. — Joel Carcone, RE/MAX Hallmark York Group Realty Ltd., Brokerage </h4>
+	<p class="auto-style3">&nbsp;<span class="auto-style2">
+	<span class="auto-style5">-------------</span></span></p>
+	</div>
+	</div>
+
+<div id="footernav" style="position: absolute; left: 230px; top: 1345px; width: 980px; height: 31px; z-index: 6">
+<ul>
+  <li class="auto-style1" style="width: 106px"><a class="active" href="#home">
+  <strong>Home</strong></a></li>
+  <li class="auto-style6"><a href="#news"><strong>Our Listing</strong></a></li>
+  <li class="auto-style6" style="width: 169px"><a href="#Service"><strong>Our Sales Team</strong></a></li>
+  <li><a href="#about"><strong><span class="auto-style6">Free Home Evalutaion</span></strong></a>
+  <li class="auto-style1"><a href="#Sitemap"><strong>Sitemap</strong></a></li>
+  <li class="auto-style6"><a href="#Find an Agent"><strong>Find an Agent</strong></a></li>
+
+  <li style="float:right" class="auto-style1"><a class="active" href="#contact"><strong>Contact</strong></a></li>
+    
+</ul>
+</div>
+<div id="footernote" style="position: absolute; left: 230px; top: 1345px; width: 980px; height: 31px; z-index: 7">
+<h6>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   © COPYRIGHT Mainul Haque - STUDENT NUMBER: 300885286 - COMP213 - SPRING 2016</h6>
+</div>
+
+</body>
+
+</html>

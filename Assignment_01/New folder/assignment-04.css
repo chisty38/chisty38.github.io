@@ -1,0 +1,31 @@
+﻿#allPage {
+	width: 980px;
+	border-style: solid;
+	border-color: #666666;
+	border-radius: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #818181;
+	padding: 10px;
+	font-size: medium;
+	font-weight: bold;
+	color: #535353;
+	background-color: #D8B089;
+	opacity: 0.8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+label {
+	text-align: right;
+	width: 220px;
+	float: left;
+	margin-right: 5px;
+}
+body {
+	background-size: cover;
+	background-position: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-image: url('../amazing-Water-Drops-Macro.jpg');
+	margin-right: auto;
+	margin-left: auto;
+}
